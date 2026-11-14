@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Лабораторна №1 — Моя перша сторінка</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <h1>Орест Шкірей</h1>
+    <p>Студент групи ІП-23-1 · Лабораторна робота №1</p>
+    <nav>
+      <a href="#about">Про мене</a>
+      <a href="#stack">Стек</a>
+      <a href="#api">REST API</a>
+    </nav>
+  </header>
+ 
+  <main>
+    <section id="about">
+      <h2>Про мене</h2>
+      <p>Це перша веб-сторінка.</p>
+    </section>
+ 
+    <section id="stack">
+      <h2>Технології, які я розглянув</h2>
+      <ul>
+        <li><strong>HTML5</strong> — структура сторінки</li>
+        <li><strong>CSS3</strong> — оформлення</li>
+        <li><strong>JavaScript</strong> — поведінка в браузері</li>
+        <li><strong>REST API</strong> — обмін даними через HTTP</li>
+      </ul>
+      <button id="themeBtn" type="button">Змінити тему</button>
+    </section>
+ 
+    <section id="api">
+      <h2>Приклад REST API</h2>
+      <p>Кнопка нижче надсилає GET-запит</p>
+      <button id="factBtn" type="button">Отримати цитату</button>
+      <p id="result" aria-live="polite">Натисніть кнопку.</p>
+    </section>
+  </main>
+ 
+  <footer>© 2026 Орест Шкірей</footer>
+  <script src="script.js"></script>
+</body>
+</html>
